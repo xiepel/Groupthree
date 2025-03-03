@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <h1>𓇼 THY COVENANT MONTESSORI SCHOOL 𓇼
+  </h1> 
+  <img src="" alt="" style="width:200px"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>°❀⋆.ೃ࿔*:･ Meet Our Team °❀⋆.ೃ࿔*:･</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(225, 193, 255);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .team-member {
+            position: relative;
+            cursor: pointer;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #3498db;
+            transition: transform 0.3s ease;
+        }s
+        .team-member img:hover {
+            transform: scale(1.1);
+        }
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 30px;
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+  
+  <div class="team-container">
+      <!-- Each person should replace "your-image.jpg" with their actual image file -->
+     
+      </div>
+      <div class="team-member" onclick="showDetails(2)">
+          <img src="thyco.png-removebg-preview.png" alt="Julia Sosito">
+      </div>
+     
+          
+     
+
+    <h1>°❀⋆.ೃ࿔*:･ Meet Our Team °❀⋆.ೃ࿔*:･</h1>
+    <div class="team-container">
+        <!-- Each person should replace "your-image.jpg" with their actual image file -->
+        <div class="team-member" onclick="showDetails(0)">
+            <img src="Antoinette.png.jpg" alt="Antoinette Alcantara">
+        </div>
+        <div class="team-member" onclick="showDetails(1)">
+            <img src="Bea.png.jpg" alt="Bea Ocampo">
+        </div>
+        <div class="team-member" onclick="showDetails(2)">
+            <img src="Julia.png.jpg" alt="Julia Sosito">
+        </div>
+        <div class="team-member" onclick="showDetails(3)">
+            <img src="rui.png.jpg" alt="Rui Branzuela">
+        </div>
+        <div class="team-member" onclick="showDetails(4)">
+            <img src="jeard.png.png" alt="Jeard Del Rosario">
+        </div>
+    </div>
+
+    <!-- Modal for displaying details -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="name"></h2>
+            <p id="details"></p>
+        </div>
+    </div>
+
+    <script>
+        // Details of each student
+        const teamMembers = [
+            { name: "🫧𓇼𓏲*ੈ✩‧₊˚🎐", details: "` The past does not determine your future.`" },
+            { name: "🪼⋆.ೃ࿔*:･", details: "Loves coding and web development." },
+            { name: "⋆౨ৎ˚⟡˖ ࣪", details: "don't stop, keep on going" },
+            { name: "⋆.˚✮🎧✮˚.⋆", details: "Passionate about music and arts." },
+            { name: "˙✧˖°📷 ༘ ⋆｡°", details: "Interested in science and technology." }
+        ];
+
+        function showDetails(index) {
+            document.getElementById("name").innerText = teamMembers[index].name;
+            document.getElementById("details").innerText = teamMembers[index].details;
+            document.getElementById("modal").style.display = "flex";
+        }
+
+        function closeModal() {
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+
+  
+  <a href="file:///C:/Users/NEC/Desktop/Untitled-1.html" target="_blank">
+    <button
+      style="
+        background-color: rgb(6, 6, 6);
+        color: rgb(240, 243, 246);
+        border-radius: 8px;
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+          sans-serif;
+      "
+    >
+    Antoinette Alcantara
+    </button>
+  </a>
+
+  <a href="file:///C:/Users/NEC/Desktop/julia.html" target="_blank">
+    <button
+      style="
+        background-color: rgb(6, 6, 6);
+        color: rgb(240, 243, 246);
+        border-radius: 8px;
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+          sans-serif;
+      "
+    >
+    Bea Ocampo
+    </button>
+  </a>
+
+  <a href="file:///C:/Users/NEC/Desktop/julia.html" target="_blank">
+    <button
+      style="
+        background-color: rgb(6, 6, 6);
+        color: rgb(240, 243, 246);
+        border-radius: 8px;
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+          sans-serif;
+      "
+    >
+   Julia Sosito
+    </button>
+  </a>
+
+  <a href="file:///C:/Users/NEC/Desktop/julia.html" target="_blank">
+    <button
+      style="
+        background-color: rgb(6, 6, 6);
+        color: rgb(240, 243, 246);
+        border-radius: 8px;
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+          sans-serif;
+      "
+    >
+   Rui Branzuela
+    </button>
+  </a>
+
+  <a href="https://ph.pinterest.com/pin/515943701078918573/" target="_blank">
+    <button
+      style="
+        background-color: rgb(6, 6, 6);
+        color: rgb(240, 243, 246);
+        border-radius: 8px;
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+          sans-serif;
+      "
+    >
+   Jeard Del Rosario
+    </button>
+  </a>
+  <h1>°❀⋆.ೃ࿔*:･  *ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚  °❀⋆.ೃ࿔*:･</h1>
+</body>
+</html>
